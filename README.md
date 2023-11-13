@@ -9,19 +9,23 @@ R:
 
 R:
 
-3 - Descrição da Arquitetura (1.0 ponto): Avaliar a descrição da arquitetura da aplicação, incluindo a estrutura das classes, módulos e a relação entre eles. Deve demonstrar uma compreensão clara dos conceitos de Programação Orientada a Objetos.
+3 - Tecnologia Empregada (0.5 ponto):  Avaliar a escolha e justificativa das tecnologias utilizadas no projeto, como linguagens de programação (Java), frameworks, bibliotecas, bancos de dados, etc.
 
 R:
 
-4 - Funcionalidade (2.0 pontos): Avaliar o desempenho da aplicação em relação às funcionalidades do sistema CRUD (Create, Read, Update, Delete). Verifique se todas as operações foram implementadas corretamente e se a aplicação demonstra total funcionalidade. Os alunos também podem incluir imagens ou vídeos explicativos para facilitar a compreensão das funcionalidades.
+4 - Descrição da Arquitetura (1.0 ponto): Avaliar a descrição da arquitetura da aplicação, incluindo a estrutura das classes, módulos e a relação entre eles. Deve demonstrar uma compreensão clara dos conceitos de Programação Orientada a Objetos.
 
 R:
 
-5 - Documentação (1.0 ponto): Avaliar a qualidade da documentação do projeto, incluindo comentários no código, explicações de classes e métodos, e qualquer outra documentação relevante que facilite a compreensão do projeto.
+5 - Funcionalidade (2.0 pontos): Avaliar o desempenho da aplicação em relação às funcionalidades do sistema CRUD (Create, Read, Update, Delete). Verifique se todas as operações foram implementadas corretamente e se a aplicação demonstra total funcionalidade. Os alunos também podem incluir imagens ou vídeos explicativos para facilitar a compreensão das funcionalidades.
 
 R:
 
-6 - Inovação e Criatividade (1.0 ponto): Avaliar a inovação e a criatividade no projeto, considerando recursos adicionais ou funcionalidades que vão além do básico CRUD e qualquer ideia original incorporada pelo grupo.
+6 - Documentação (1.0 ponto): Avaliar a qualidade da documentação do projeto, incluindo comentários no código, explicações de classes e métodos, e qualquer outra documentação relevante que facilite a compreensão do projeto.
+
+R:
+
+7 - Inovação e Criatividade (1.0 ponto): Avaliar a inovação e a criatividade no projeto, considerando recursos adicionais ou funcionalidades que vão além do básico CRUD e qualquer ideia original incorporada pelo grupo.
 
 R:
 
