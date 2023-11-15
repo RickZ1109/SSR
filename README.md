@@ -1,5 +1,5 @@
 # SSR
-##Solicitação de Serviço##
+##Solicitação de Serviço
 
 1 - Descrição do Projeto (1.0 ponto): Avaliar a qualidade da descrição do projeto, desenvolvida no âmbito da componente curricular de Programação Orientada a Objetos na USF. Esta descrição deve ser nítida e abrangente, englobando o propósito da aplicação, seu público-alvo e os principais recursos a serem implementados.
 
