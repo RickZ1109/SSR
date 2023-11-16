@@ -37,7 +37,7 @@ R: A classe sssControler é responsável pelo controle dos chamados, oferecendo 
 
 6 - Documentação (1.0 ponto): Avaliar a qualidade da documentação do projeto, incluindo comentários no código, explicações de classes e métodos, e qualquer outra documentação relevante que facilite a compreensão do projeto.
 
-R: x
+R: O projeto possui comentários explicativos nas classes, métodos e anotações relevantes. Os comentários fornecem informações claras sobre a finalidade de cada componente, facilitando a compreensão do código para desenvolvedores que possam interagir com o projeto. A adição de explicações detalhadas sobre o propósito e o funcionamento de cada classe e método contribui significativamente para a clareza e manutenção do código.
 
 7 - Inovação e Criatividade (1.0 ponto): Avaliar a inovação e a criatividade no projeto, considerando recursos adicionais ou funcionalidades que vão além do básico CRUD e qualquer ideia original incorporada pelo grupo.
 
