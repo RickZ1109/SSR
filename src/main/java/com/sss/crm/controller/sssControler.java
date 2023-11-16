@@ -25,7 +25,7 @@ public class sssControler {
 	@GetMapping /* <-- Anotação usada em um método de controle (marcado com @RestController)
 	para mapear solicitações HTTP GET para esse método, indicando a URL que acionará a execução do método.*/
 	public List<Chamado> listar() {
-		return chamadoRepository.findAll();
+		return chamadoRepository.findAll(); /* <-- Retorna todos os chamados do repositório.*/
 	}
 	
 	@PostMapping /* <-- Mapea solicitações HTTP POST para esse método,
@@ -35,7 +35,7 @@ public class sssControler {
 	deve retornar como resposta padrão. Permite personalizar o código de status da resposta HTTP para diferentes situações.*/
 	
 	public Chamado adicionar (@RequestBody Chamado chamado) {
-		return chamadoRepository.save(chamado);
+		return chamadoRepository.save(chamado); /* <-- Adiciona um novo chamado ao repositório e o retorna.*/
 	}
 }
 
