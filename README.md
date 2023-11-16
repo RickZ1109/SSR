@@ -16,8 +16,21 @@ R: A escolha da linguagem de programação Java foi fundamentada na sua versatil
 
 4 - Descrição da Arquitetura (1.0 ponto): Avaliar a descrição da arquitetura da aplicação, incluindo a estrutura das classes, módulos e a relação entre eles. Deve demonstrar uma compreensão clara dos conceitos de Programação Orientada a Objetos.
 
-R: x
-
+R: A aplicação possui três classes principais: SssApiApplication, SssController, e Chamado.
+   SssApiApplication = Função: Inicia a aplicação Spring Boot.
+                       Relação: Dependente das outras classes para funcionar.
+                       
+   SssController = Função: Controlador Spring para manipular solicitações HTTP relacionadas aos chamados.
+                   Métodos Principais: listar (GET) e adicionar (POST).
+                   Dependência: Usa ChamadoRepository para acessar dados dos chamados.
+                   
+   Chamado = Função: Representa a entidade JPA para mapear uma tabela no banco de dados.
+             Campos: Relacionados aos chamados.
+             Dependência: Utilizada pelo ChamadoRepository para persistência.
+             
+   ChamadoRepository = Função: Fornece métodos CRUD para a entidade Chamado
+                       Dependência: Utiliza a entidade Chamado para persistência.
+                       
 5 - Funcionalidade (2.0 pontos): Avaliar o desempenho da aplicação em relação às funcionalidades do sistema CRUD (Create, Read, Update, Delete). Verifique se todas as operações foram implementadas corretamente e se a aplicação demonstra total funcionalidade. Os alunos também podem incluir imagens ou vídeos explicativos para facilitar a compreensão das funcionalidades.
 
 R: A classe sssControler é responsável pelo controle dos chamados, oferecendo endpoints para listar todos os chamados (GET /Chamado) e adicionar novos chamados (POST /Chamado). A implementação segue os princípios RESTful e utiliza adequadamente as anotações do Spring. A classe Chamado representa a entidade do chamado com os atributos relevantes, e o ChamadoRepository faz uso do Spring Data JPA para operações CRUD no banco de dados.
