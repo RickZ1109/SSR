@@ -28,7 +28,7 @@ R: A aplicação possui três classes principais: SssApiApplication, SssControll
              Campos: Relacionados aos chamados.
              Dependência: Utilizada pelo ChamadoRepository para persistência.
              
-   ChamadoRepository = Função: Fornece métodos CRUD para a entidade Chamado
+   ChamadoRepository = Função: Fornece métodos CRUD para a entidade Chamado.
                        Dependência: Utiliza a entidade Chamado para persistência.
                        
 5 - Funcionalidade (2.0 pontos): Avaliar o desempenho da aplicação em relação às funcionalidades do sistema CRUD (Create, Read, Update, Delete). Verifique se todas as operações foram implementadas corretamente e se a aplicação demonstra total funcionalidade. Os alunos também podem incluir imagens ou vídeos explicativos para facilitar a compreensão das funcionalidades.
