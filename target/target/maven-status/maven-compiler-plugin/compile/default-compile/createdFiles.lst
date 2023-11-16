@@ -1,0 +1,4 @@
+com\sss\crm\model\Chamado.class
+com\sss\crm\SssApiApplication.class
+com\sss\crm\controller\sssControler.class
+com\sss\crm\repository\ChamadoRepository.class
