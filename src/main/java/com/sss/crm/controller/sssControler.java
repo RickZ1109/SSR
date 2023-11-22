@@ -37,6 +37,50 @@ public class sssControler {
 	public Chamado adicionar (@RequestBody Chamado chamado) {
 		return chamadoRepository.save(chamado); /* <-- Adiciona um novo chamado ao repositório e o retorna.*/
 	}
+
+	/* Possiveis Exceções
+	 
+	 DataAccessException: Essa é uma exceção genérica para problemas de acesso a dados.
+	 Ela é frequentemente lançada quando ocorre algum problema durante uma operação no banco de dados. Pode envolver exceções mais específicas.
+	
+	 JpaSystemException: Esta exceção é lançada para problemas específicos do sistema JPA,
+	 como violações de restrições únicas ou falhas durante a execução de consultas.
+	
+	 ConstraintViolationException: Lançada quando ocorre uma violação de restrição de banco de dados, por exemplo,
+	 ao tentar inserir dados duplicados em uma coluna com uma restrição única.
+	
+	*/
+	
+	/* Try Catch
+	 * @RestController
+	   @RequestMapping("/Chamado")
+	public class sssController {
+
+    	@Autowired
+    private ChamadoRepository chamadoRepository;
+
+    	@GetMapping
+    public List<Chamado> listar() {
+        return chamadoRepository.findAll();
+    }
+
+   	 @PostMapping
+    	 @ResponseStatus(HttpStatus.CREATED)
+    public ResponseEntity<Object> adicionar(@RequestBody Chamado chamado) {
+        try {
+            Chamado novoChamado = chamadoRepository.save(chamado);
+            return new ResponseEntity<>(novoChamado, HttpStatus.CREATED);
+        } catch (DataAccessException e) {
+            e.printStackTrace();
+            return new ResponseEntity<>("Erro ao salvar chamado no banco de dados", HttpStatus.INTERNAL_SERVER_ERROR);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new ResponseEntity<>("Erro desconhecido ao salvar chamado", HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    	}
+		}
+		
+	 */
 }
 
 
